@@ -1,7 +1,5 @@
 # W22_B73_RNAseq_paper
 
-##################################################
-##################################################
 
 
 ------------------------
@@ -17,9 +15,6 @@ Argument 2 is the directory to store the output FASTQ's in.
 
 Argument 3 is the specific gene model from Argument 1 to fragment.
 
-
-##################################################
-##################################################
 
 
 --------------
@@ -37,9 +32,6 @@ Argument 3 is the where to output the new modified GFF.
 
 Argument 4 is the where to output the gene models which were removed from the original GFF.
 
-
-##################################################
-##################################################
 
 
 
