@@ -34,4 +34,8 @@ Argument 4 is the where to output the gene models which were removed from the or
 
 
 
+------------------------------------
+Library_size_by_expression_corr.tsv
+------------------------------------
 
+This file contains Pearson R^2 and p-values for zein expression by library size in the NAM expression data.
