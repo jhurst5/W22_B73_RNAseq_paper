@@ -39,3 +39,10 @@ Library_size_by_expression_corr.tsv
 ------------------------------------
 
 This file contains Pearson R^2 and p-values for zein expression by library size in the NAM expression data.
+
+
+------------
+metrics.csv
+------------
+
+This file contains basic quality control information on the RNAseq libraries used in the study.
