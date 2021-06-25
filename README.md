@@ -46,3 +46,10 @@ metrics.csv
 ------------
 
 This file contains basic quality control information on the RNAseq libraries used in the study.
+
+---------------------------------------------
+Read_Alignment_and_Quatification_Commands.txt
+---------------------------------------------
+
+This file contains the commands used for HISAT2, StringTie2, and DESeq2.
+
