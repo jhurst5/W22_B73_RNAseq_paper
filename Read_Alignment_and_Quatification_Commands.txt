@@ -1,0 +1,23 @@
+##Alignment with HISAT2
+
+hisat2 -q --dta -x <ref> -1 <read1.fq> -2 <read2.fq> -S <sample.sam>
+
+
+
+##Transcript quantification with StringTie2
+
+stringtie <sorted_bam> -G <ref.gff> -e -b <out.gene_abund> -o <sample.out>
+
+
+
+##DEseq2 R command
+
+countData <- as.matrix(read.csv(<gene_count_matrix.csv>, row.names="gene_id"))
+colData <- read.csv(<pheno.csv>, sep=",", row.names=1)
+dds <- DESeqDataSetFromMatrix(countData = countData, colData = colData, design = DAP + LINE + DAP:LINE)
+dds <- DESeq(dds)
+res <- results(dds)
+x = (resOrdered <- res[order(res$padj), ])
+write.csv(x, <output>)
+
+
